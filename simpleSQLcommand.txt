@@ -6,7 +6,6 @@ SHOW CREATE TABLE table_name; - показать структуру таблиц
 SHOW INDEX FROM tbl_name; - список индексов
 SHOW GRANTS FOR user [FROM db_name]; - привилегии для пользователя.
 
-
 SHOW VARIABLES; - значения системных переменных
 SHOW [FULL] PROCESSLIST; - статистика по mysqld процессам
 SHOW STATUS; - общая статистика
