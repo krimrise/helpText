@@ -11,3 +11,5 @@ SHOW VARIABLES; - значения системных переменных
 SHOW [FULL] PROCESSLIST; - статистика по mysqld процессам
 SHOW STATUS; - общая статистика
 SHOW TABLE STATUS [FROM db_name]; - статистика по всем таблицам в базе
+
+SET PASSWORD FOR 'root'@'localhost' = PASSWORD('newpass'); - изменить пароль root
